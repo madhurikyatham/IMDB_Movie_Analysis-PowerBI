@@ -18,7 +18,7 @@
   
 ### Data Source
 
-Movies Data : The primary dataset is used for this analysis is the " IMDB_Movies_Data. xlsx", which contains a historical dataset of 1,000 films for exploring historical trends, understanding demographic market reach, and identifying the key drivers behind cinematic success from 1920 to 2020.
+Movies Data : The primary dataset is used for this analysis is the " IMDB_Movies_Data.csv", which contains a historical dataset of 1,000 films for exploring historical trends, understanding demographic market reach, and identifying the key drivers behind cinematic success from 1920 to 2020.
 
 ### Tools
 
