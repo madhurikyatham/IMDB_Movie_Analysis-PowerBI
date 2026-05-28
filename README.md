@@ -1,6 +1,5 @@
 #   IMDB_Movie_Analysis-PowerBI
 
-
 ## Table of Contents 
 
 *  Project Overview
@@ -51,8 +50,9 @@ EDA involved exploring the Movies data to answer key questions, such as:
 ### Insights
 
 #### Summary
+In summary Page contains insights are as follows:
 
-**1] Key Performance Indicators (KPIs) :-**
+#### 1] Key Performance Indicators (KPIs) 
 
 The dashboard tracks high-level summary metrics across the dataset:
 *   Total Directors: 548 unique filmmakers.
@@ -62,21 +62,59 @@ The dashboard tracks high-level summary metrics across the dataset:
 *   Average Rating: 7.95/10, indicating a curated or highly-rated selection of films.
 *   Average Meta Score: 77.98/100, reflecting critical consensus.
 
-**2] Advanced Search & Hierarchical Breakdown (Decomposition Tree) :-**
+#### 2] Advanced Search & Hierarchical Breakdown (Decomposition Tree)
 *   Located on the left, this section utilizes a *Decomposition Tree* visual. It allows users to break down the total volume of movies (Count of Genre: 1000) by specific paths: Genre ➡️ Director ➡️ Movie Title. 
 *   It currently showcases a filtered deep-dive into specific directors like Richard Linklater and Peter Bogdanovich alongside their notable films (e.g., the Before trilogy).
 
-**3] Top 5 Movies by Gross Revenue :-**
+#### 3] Top 5 Movies by Gross Revenue
 *   A treemap highlighting the highest-earning blockbusters in the dataset. 
 *   Dominating the box office metrics are massive franchises like Star Wars: Episode VII - The Force Awakens ($937M), Avengers: Endgame ($858M), Avatar ($761M), and Avengers: Infinity War ($679M).
 
-**4] Industry Powerhouses :-**
+#### 4] Industry Powerhouses 
 *   *Top Actors by Movies:* Ranks the most prolific actors in the dataset. *Tom Hanks* leads with 12 movies, closely followed by industry veterans like *Robert De Niro* (11), *Al Pacino* (10), and *Clint Eastwood* (10).
 *   *Top Directors by Movies:* Tracks the directors with the highest film count in this dataset. Legendary filmmaker *Alfred Hitchcock* tops the list with 14 films, followed by *Steven Spielberg* (13) and *Hayao Miyazaki* (11).
 
-**5] Historical Gross Revenue Trends :-**
+#### 5] Historical Gross Revenue Trends
 *   A historical timeline spanning from *1920 to 2020* that tracks financial growth in the film industry.
 *   Features a dynamic insight header highlighting a major milestone: *"Highest Gross is generated in the year 2009"* (largely driven by the release of Avatar), with a visible exponential spike in revenue moving into the 2000s and 2010s.
+
+
+#### Movie Details
+In Movie Details Page contains insights are as follows:
+
+#### 1]. Dynamic Movie Profile Card (Detailed Drilldown)
+*   *Interactive Selection:* Features a *Title* slicer at the top left (currently showing "A Man for All Seasons"). Selecting a movie dynamically populates a comprehensive metadata profile card.
+*   *Key Details Captured:* 
+    *   *Core Metadata:* Director (Fred Zinnemann), Genre (Biography, Drama, History), Runtime (120 min), and Release Year (1966).
+    *   *Financials & Reception:* Box Office Gross ($28.35M), IMDb Rating (7.70), Total Votes (31K), and Metacritic Score (72.00).
+    *   *Narrative Context:* Includes a dynamic text box rendering the movie's official plot description.
+    *   *Cast Details:* Dynamically lists the main starring actors (e.g., Paul Scofield, Wendy Hiller, Robert Shaw, Leo McKern).
+
+#### 2]. Certificate Distribution
+*   A *Funnel Chart* illustrating the volume of movies across different film certifications and age ratings.
+*   The breakdown highlights market distribution, showing that *U* (175 movies), *A* (146 movies), and *UA* (101 movies) represent the bulk of the dataset, tapering down into niche ratings like PG-13, PG, and Approved.
+
+#### 3]. Industry Genre Analysis 
+*   *Top Genres by Total Movies:* A horizontal bar chart identifying *Drama* as the single most dominant genre with 85 entries, followed by hybrid genres like Drama, Romance (37) and Comedy, Drama (35).
+*   *Top Genres by Total Rating:* A column chart that shifts the perspective from volume to performance, tracking which genres pull in the highest cumulative user ratings. Pure *Drama* leads significantly here as well (678 total rating points).
+
+#### 4]. Historical Audience Engagement
+*   *Top Movies by Total Votes:* Tracks the sheer volume of audience engagement through global vote counts.
+*   Cinematic masterpieces dominate this visual, with *The Shawshank Redemption* and *The Dark Knight* leading the pack at an incredible *2,343K* and *2,303K* votes respectively, followed closely by Inception (2,067K) and Fight Club (1,855K).
+
+
+### Dashboard
+
+#### Home Page
+<img width="1314" height="735" alt="Screenshot 2026-05-29 002512" src="https://github.com/user-attachments/assets/e5f36737-795f-4090-a441-49ae45d35d6b" />
+
+
+#### Summary 
+<img width="1332" height="744" alt="Screenshot 2026-05-29 002544" src="https://github.com/user-attachments/assets/ec3b2524-574b-4901-9992-b739f54278e5" />
+
+#### Movie Details
+<img width="1332" height="743" alt="Screenshot 2026-05-29 002618" src="https://github.com/user-attachments/assets/eb22ebe5-a856-4eb4-895e-daa573423118" />
+
 
 
 
